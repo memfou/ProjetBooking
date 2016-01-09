@@ -24,7 +24,7 @@ class groupe
         $this->id = $id;
         $this->nom = $nom;
         $this->description = $description;
-        $this->imageHeader = $image
+        $this->imageHeader = $image;
     }
 
     /**
