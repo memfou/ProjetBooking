@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "futura_lt_bt_light-webfont";
+  src: url('../data/futura_lt_bt_light-webfont.ttf');
+  font-size: 200%;
+}
+@font-face {
+  font-family: 'Bellerose';
+  src: url('../data/Bellerose.woff');
+  font-size: 200%;
+}
+.barre li, a, a:visited {
+  /* Les liens "au repos" et déjà visités antérieurement */
+  color: #F2F2F2; /* couleur blanche */
+
+}
+.barre li, a:hover, a:focus, a:active {
+  /* Les liens au survol, au focus, et actifs : on leur donne la couleur rouge pour l'exemple */
+  color: #F2F2F2;
+}
+.barre a:hover {
+  color:#AD975F
+  /*background-color: #F2F2F2;
+  color: #1A1D26;*/
+}
+@media all and (min-width: 1400px) and (max-width: 1980px){
+body {
+  background-color: #F2F2F2;
+  font-size: 150%;
+  color: #1A1D26;
+  margin: 0%;
+}
+.content{
+  width:95%;
+  margin: 0;
+}
+
+p{
+  font-size: 120%;
+  font-family: futura_lt_bt_light-webfont;
+}
+
+h1{
+  font-size: 140%;
+  font-family: 'Bellerose';
+}
+
+h2{
+  font-size: 120%;
+  text-decoration : underline;
+  font-family: 'Bellerose';
+}
+.content {
+  display:inline-block;
+  float : left;
+  text-align: center;
+  /*border-style: solid;
+  background-color: grey;*/
+  width: 100%;
+  margin-bottom: 2%;
+  margin-top: 15%;
+}
+
+.Modifier a{
+  display: inline-block;
+  font-size: 120%;
+  color: #F2F2F2;
+  font-family: futura_lt_bt_light-webfont;
+  text-decoration: none;
+  background-color: #1A1D26;
+  margin-top: 5%;
+  padding: 1.5%;
+}
+/*BARRE DE NAVIGATION*/
+li {
+  display: inline-block;
+  float: right;
+  /*taille*/
+  width: 5%;
+  height: 100%;
+}
+.autre{
+  margin-right: 5%;
+}
+.autre a{
+  text-decoration:none;
+  font-family:bellerose;
+  width: 0%;
+  height: 76%;
+  position: absolute;
+  padding-top: 1.35%;
+  text-align: center;
+}
+
+.artistes{
+  margin-right: 0%;
+}
+.artistes a{
+  text-decoration:none;
+  font-family:bellerose;
+  width: 0%;
+  height: 76%;
+  position: absolute;
+  padding-top: 1.35%;
+  text-align: center;
+}
+
+.accueil{
+  margin-right: 0%;
+}
+
+.barre .accueil a {
+  text-decoration:none;
+  font-family: 'Bellerose';
+  width: 0%;
+  height: 76%;
+  position: absolute;
+  padding-top: 1.35%;
+  text-align: center;
+}
+
+.evenement{
+  margin-right: 2.2%;
+}
+
+.evenement a{
+  text-decoration:none;
+  font-family:bellerose;
+  width: 0%;
+  height: 76%;
+  position: absolute;
+  padding-top: 1.35%;
+  text-align: center;
+}
+.booker{
+  margin-right: 0.7%;
+}
+.booker a{
+  text-decoration:none;
+  font-family:bellerose;
+  width: 0%;
+  height: 76%;
+  position: absolute;
+  padding-top: 1.35%;
+  text-align: center;
+}
+ul {
+  background-color: #1A1D26;
+  font-size: 100%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  /*height: 100px;*/
+  float: left;
+  padding: 0;
+
+}
+
+nav{
+  position: fixed; top: 0; /* Mise en forme */
+  width: 100%; /* <-- Largeur de votre site */
+  height: 12%;
+}
+
+.logo{
+  display: inline-block;
+  float: left;
+  /*taille*/
+  width: 5%;
+  height: 100%;
+  margin-left: 2%;
+}
+.logo a{
+  text-decoration:none;
+  font-family: Bellerose;
+  width: 5%;
+  height: 76%;
+  position: absolute;
+  padding-top: 0.05%;
+  text-align: center;
+}
+.logo img {
+ display: inline-block;
+ float: left;
+ width: 120%;
+ height: 130%;
+ /*taille*/
+}
+}

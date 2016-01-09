@@ -25,12 +25,16 @@ class DAO
             $dbh = new PDO('mysql:host=' . $this->DB_HOST . ';port=' . $this->DB_PORT . ';dbname=' . $this->DB_NAME, $this->DB_USER, $this->DB_PASS);
             $this->db = $dbh;
         } catch (Exception $e) {
-            echo $e->getMessage();
+            die($e->getMessage());
         }
     }
     public function executeRequest($request){
-        $sth = $this->db->query($request);
-        return $sth->fetchAll();
+        try {
+            $sth = $this->db->query($request);
+            return $sth->fetchAll();
+        } catch (Exception $e) {
+            die($e->getMessage());
+        }
     }
 
     /**

@@ -1,0 +1,29 @@
+
+@font-face {
+font-family: 'Bellerose';
+src: url('Bellerose.woff');
+
+}
+body {
+  background-color: #F2F2F2;
+  color: #1A1D26;
+  font-family: bellerose;
+
+}
+
+.container{
+ color: #1A1D26;
+ width: 12%;
+ margin-left:42%;
+ padding-left: 1%;
+ border:1px solid #1A1D26;
+ border-radius: 10px;
+}
+.bouton{
+float: right;
+padding-right: 1%;
+}
+.image {
+margin-top: 1%;
+margin-left:39%;
+}

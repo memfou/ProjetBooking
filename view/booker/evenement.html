@@ -1,0 +1,75 @@
+<!-- HEADING-->
+<html lang="fr">
+<head>
+  <link rel="stylesheet" href="evenement.css"> <!--script styles.css-->
+
+<meta charset="UTF-8">
+<title>evenement</title>
+
+<nav>
+<ul>
+  <li class="artistes"><a href="bookerArtistes.html">Artistes</a></li>
+  <li class="evenement"><a href="bookerEvenement.html">Evenement</a></li>
+  <li class="accueil"><a href="homeBook.html">Accueil</a></li>
+  <li class="logo"><a href="homeBook.html"><img src="../data/loup.png" alt="loup"></a></li>
+  </ul>
+</nav>
+</head>
+
+    <div class="gauche">
+      <h1>Ajouter Evenements :</h1>
+<form method="post" action="traitement.php">
+   <p>
+       <label for="pseudo">Nom Evenement :</label>   <br />
+       <input type="text" name="pseudo" id="pseudo" />
+       <br />
+       <label for="pseudo">Lieu:</label>   <br />
+       <input type="text" name="pseudo" id="pseudo" />
+       <br />
+       <label for="pseudo">Lien :</label>   <br />
+       <input type="text" name="pseudo" id="pseudo" />
+       <br />
+       <label for="a2">
+             Description Courte :
+             </label>
+             <br />
+             <textarea name="a1" id="a1" rows="5" cols="50">
+              </textarea>
+              <br />
+
+              <label for="a2">
+                    Description Longue :
+                    </label>
+                  <br />
+                  <textarea name="a2" id="a2" rows="10" cols="50">
+                   </textarea>
+           <br />
+         </p>
+      </form>
+      </div>
+      <div class="droite">
+
+           <form method="post" action="reception.php" enctype="multipart/form-data">
+
+          <label for="icone">Photo 1 : (JPG, PNG ) :</label><br />
+
+          <input type="file" name="icone" id="icone" /><br />
+
+          <label for="mon_fichier">Photo 2 : (JPG, PNG ) :</label><br />
+
+          <input type="file" name="icone" id="icone" /><br />
+
+   </p>
+
+</form>
+<div class="bouton">
+  <input type="submit" name="valider" value="Valider" />
+  <input type="reset" name="reinitialiser" value="Réinitialiser" />
+  <input type="reset" name="reinitialiser" value="Annuler" />
+</div>
+  </div>
+<body>
+
+</body>                               <!-- end BODY-->
+
+</html>
