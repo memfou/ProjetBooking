@@ -7,14 +7,13 @@
  */
 
 
-
 function getAllGroupes(){
     $request = 'select * from groupe';
     $db = new DAO();
     $listgroupe = array();
     $result = $db->executeRequest($request);
     foreach($result as $value){
-        $listgroupe[] = new groupe($value["groupeId"],$value["nom"],$value["description"]);
+        $listgroupe[] = new groupe($value["groupeId"],$value["nom"],$value["description"],$value["imageHeader"]);
     }
     return $listgroupe;
 }
