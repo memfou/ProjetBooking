@@ -11,6 +11,38 @@ class groupe
     private $id;
     private $nom;
     private $description;
+    private $imageHeader;
+
+    /**
+     * groupe constructor.
+     * @param $id
+     * @param $nom
+     * @param $description
+     */
+    public function __construct($id, $nom, $description, $image)
+    {
+        $this->id = $id;
+        $this->nom = $nom;
+        $this->description = $description;
+        $this->imageHeader = $image
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImageHeader()
+    {
+        return $this->imageHeader;
+    }
+
+    /**
+     * @param mixed $imageHeader
+     */
+    public function setImageHeader($imageHeader)
+    {
+        $this->imageHeader = $imageHeader;
+    }
+
 
     /**
      * @return mixed
@@ -59,6 +91,7 @@ class groupe
     {
         $this->description = $description;
     }
+
 
 
 }

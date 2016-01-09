@@ -6,14 +6,15 @@
  * Time: 18:12
  */
 
-require_once '../model/DAO.php';
+
 
 function getAllGroupes(){
     $request = 'select * from groupe';
     $db = new DAO();
+    $listgroupe = array();
     $result = $db->executeRequest($request);
     foreach($result as $value){
-        var_dump($value);
+        $listgroupe[] = new groupe($value["groupeId"],$value["nom"],$value["description"]);
     }
-
+    return $listgroupe;
 }

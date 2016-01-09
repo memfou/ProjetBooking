@@ -7,6 +7,7 @@
  */
 
 require_once 'controler/groupeController.php';
+require_once 'model/DAO.php';
 
 error_reporting(E_ALL | E_STRICT);
 ini_set('display_errors', true);
