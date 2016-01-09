@@ -13,7 +13,7 @@
             <ul>
                 <li class="about"><a href="about.html">About</a></li>
                 <li class="contact"><a href="contact.html">Contact</a></li>
-                <li class="artistes"><a href="artistes.html">Artistes</a></li>
+                <li class="artistes"><a href="artistes.php">Artistes</a></li>
                 <li class="actu"><a href="actu.html">Actu</a></li>
                 <li class="logo"><a href="actu.html"><img src="img/loup.png" alt="loup"></a></li>
             </ul>
@@ -24,6 +24,7 @@
 
 <body>
 <div class="content">
+    <?php
     <img src="../data/cara.jpg" alt="cara">
     <div class="cara">
         <div class="zoneArtistes">
@@ -38,7 +39,7 @@
             </center>
         </div>
     </div>
-
+        ?>
     <img src="../data/Nina-Kraviz.jpg" alt="brodi">
     <div class="nina">
         <div class="zoneArtistes">
