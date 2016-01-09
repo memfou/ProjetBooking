@@ -1,0 +1,610 @@
+@font-face {
+  font-family: "futura_lt_bt_light-webfont";
+  src: url('../fonts/futura_lt_bt_light-webfont.ttf');
+}
+@font-face {
+  font-family: 'Bellerose';
+  src: url('../fonts/Bellerose.woff');
+  font-size: 200%;
+}
+.barre li, a, a:visited {
+  /* Les liens "au repos" et déjà visités antérieurement */
+  color: #F2F2F2; /* couleur blanche */
+
+}
+.barre li, a:hover, a:focus, a:active {
+  /* Les liens au survol, au focus, et actifs : on leur donne la couleur rouge pour l'exemple */
+  color: #F2F2F2;
+}
+.barre a:hover {
+  color:#AD975F
+  /*background-color: #F2F2F2;
+  color: #1A1D26;*/
+}
+@media all and (min-width: 1400px) and (max-width: 1980px)
+{
+body {
+ background-color: #F2F2F2;
+ font-size: 150%;
+ color: #1A1D26;
+ width: 100%;
+ margin: 0%;
+}
+
+.content{
+ width:100%;
+}
+
+p{
+ margin-top: 0%;
+ font-size: 90%;
+ font-family: futura_lt_bt_light-webfont;
+}
+
+div.conteneur {
+margin-left: 15%;
+margin-bottom: 1%;
+width:85%;
+}
+
+div.bloc {
+width:15%;
+display:inline-block;
+vertical-align:top;
+margin-bottom: 2%;
+}
+
+div.bloc:last-child{
+  width:65%;
+  margin-left: 5%;
+  text-align: justify;
+}
+
+.bloc img{
+  width:250px;
+  height:250px;
+  margin-right:2%;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+.dour img {
+  margin:0;
+  width:100%;
+  height:580px;
+}
+h3{
+  margin: 0%;
+  font-family: 'Bellerose';
+}
+
+.bloc a {
+  color : #1A1D26;
+  font-weight: bold;
+  width: 10%;
+  height: 6%;
+  padding-top:0%;
+  padding-bottom:0%;
+  text-align: center;
+  font-family: futura_lt_bt_light-webfont;
+  padding-right: 3%;
+}
+.bloc a:visited {
+  /* Les liens "au repos" et déjà visités antérieurement */
+  color: #1A1D26; /* couleur blanche */
+
+}
+
+/*BARRE DE NAVIAGTION*/
+li {
+ display: inline-block;
+ float: right;
+ /*taille*/
+ width: 5%;
+ height: 100%;
+
+}
+
+.about{
+  margin-right: 7%;
+}
+.actu{
+  width: 3.2%;
+}
+.barre .actu a {
+  text-decoration:none;
+  width: 4%;
+  height: 76%;
+  position: absolute;
+  padding-top: 1.35%;
+  text-align: center;
+}
+ul {
+ background-color: #1A1D26;
+ font-size: 100%;
+ margin: 0%;
+ width: 100%;
+ height: 100%;
+ /*height: 100px;*/
+ float: left;
+ padding: 0;
+
+}
+
+nav{
+ position: fixed; top: 0; /* Mise en forme */
+ width: 100%; /* <-- Largeur de votre site */
+ height: 12%;
+ z-index:3;
+}
+
+a {
+ text-decoration:none;
+ font-family: Bellerose;
+ width: 5%;
+ height: 76%;
+ position: absolute;
+ padding-top: 1.35%;
+ text-align: center;
+}
+
+.logo{
+ display: inline-block;
+ float: left;
+ /*taille*/
+ width: 5%;
+ height: 100%;
+ padding-top: 0%;
+ margin-left: 2%;
+}
+.logo a{
+  text-decoration:none;
+  font-family: Bellerose;
+  width: 5%;
+  height: 76%;
+  position: absolute;
+  padding-top: 0.05%;
+  text-align: center;
+}
+.logo img {
+ display: inline-block;
+ float: left;
+ width: 120%;
+ height: 130%;
+ /*taille*/
+}
+}
+
+@media all and (min-width: 1081px) and (max-width:1400px){
+  body {
+   background-color: #F2F2F2;
+   font-size: 150%;
+   color: #1A1D26;
+   width: 100%;
+   margin: 0%;
+   font-family: Bellerose;
+  }
+
+  .content{
+   width:100%;
+  }
+
+  p{
+  margin-top: 0%;
+  margin-bottom: 10%;
+  font-size: 65%;
+  }
+
+  div.conteneur {
+  margin-left: 5%;
+  width:100%;
+  height:300px;
+  }
+
+  div.bloc {
+  width:15%;
+  display:inline-block;
+  vertical-align:top;
+  }
+
+  div.bloc:last-child{
+    width:60%;
+    margin-left: 5%;
+    text-align: justify;
+  }
+
+  .bloc img{
+    width:200px;
+    height:200px;
+    margin-right:2%;
+    margin-top:2%;
+    margin-bottom:2%;
+  }
+
+  .dour img {
+    margin:0;
+    width:100%;
+    height:580px;
+  }
+  h3{
+    margin: 0%;
+  }
+
+  .bloc a {
+    color : #1A1D26;
+    font-weight: bold;
+    width: 6%;
+    height: 5%;
+    padding-top:0%;
+    padding-bottom:0%;
+    text-align: center;
+  }
+  .bloc a:visited {
+    /* Les liens "au repos" et déjà visités antérieurement */
+    color: #1A1D26; /* couleur blanche */
+
+  }
+
+  /*BARRE DE NAVIAGTION*/
+  li {
+    display: inline-block;
+    float: right;
+    /*taille*/
+    width: 7%;
+    height: 100%;
+  }
+
+  .about{
+    margin-right: 7%;
+  }
+
+  .actu{
+    width: 2%;
+  }
+  .barre .actu a {
+    text-decoration:none;
+    width: 2%;
+    height: 76%;
+    position: absolute;
+    padding-top: 1.35%;
+    text-align: center;
+  }
+  ul {
+    background-color: #1A1D26;
+    font-size: 100%;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    /*height: 100px;*/
+    float: left;
+    padding: 0;
+
+  }
+
+  .barre nav{
+    position: fixed; top: 0; /* Mise en forme */
+    width: 100%; /* <-- Largeur de votre site */
+    height: 10%;
+    z-index:3;
+  }
+
+  .barre a {
+    text-decoration:none;
+    width: 10%;
+    height: 76%;
+    position: absolute;
+    padding-top: 1.35%;
+    text-align: center;
+  }
+
+  .logo{
+    display: inline-block;
+    float: left;
+    /*taille*/
+    width: 5%;
+    height: 100%;
+    margin-left: 2%;
+  }
+  .logo a{
+    text-decoration:none;
+    font-family: Bellerose;
+    width: 5%;
+    height: 76%;
+    position: absolute;
+    padding-top: 0.05%;
+    text-align: center;
+  }
+  .logo img {
+   display: inline-block;
+   float: left;
+   width: 40%;
+   height: 50%;
+   /*taille*/
+  }
+  }
+@media all and (min-width: 640px) and (max-width:1080px){
+  body {
+   background-color: #F2F2F2;
+   font-size: 150%;
+   color: #1A1D26;
+   width: 100%;
+   margin: 0%;
+   font-family: Bellerose;
+  }
+
+  .content{
+   width:100%;
+  }
+
+  p{
+  margin-top: 0%;
+  margin-bottom:0%;
+  font-size: 55%;
+  }
+
+  div.conteneur {
+  margin-left: 5%;
+  width:100%;
+  height:200px;
+  }
+
+  div.bloc {
+  width:15%;
+  display:inline-block;
+  vertical-align:top;
+  margin-bottom: 0%;
+  }
+
+  div.bloc:last-child{
+    width:60%;
+    margin-left: 6%;
+    margin-bottom: 0%;
+    text-align: justify;
+  }
+
+  .bloc img{
+    width:180px;
+    height:180px;
+    margin-right:2%;
+    margin-top:2%;
+    margin-bottom:0%;
+  }
+  .dour img {
+    margin:0;
+    width:110%;
+    height:580px;
+  }
+  h3{
+    margin: 0%;
+  }
+
+  .bloc a {
+    color : #1A1D26;
+    font-weight: bold;
+    width: 6%;
+    height: 5%;
+    padding-top:0%;
+    padding-bottom:0%;
+    text-align: center;
+  }
+  .bloc a:visited {
+    /* Les liens "au repos" et déjà visités antérieurement */
+    color: #1A1D26; /* couleur blanche */
+
+  }
+
+  /*BARRE DE NAVIAGTION*/
+  li {
+    display: inline-block;
+    float: right;
+    /*taille*/
+    width: 12%;
+    height: 100%;
+  }
+
+  .about{
+    margin-right: 7%;
+  }
+
+  .actu{
+    width: 7%;
+  }
+  .barre .actu a {
+    text-decoration:none;
+    width: 5%;
+    height: 76%;
+    position: absolute;
+    padding-top: 1.35%;
+    text-align: center;
+  }
+  ul {
+    background-color: #1A1D26;
+    font-size: 100%;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    /*height: 100px;*/
+    float: left;
+    padding: 0;
+
+  }
+
+  .barre nav{
+    position: fixed; top: 0; /* Mise en forme */
+    width: 100%; /* <-- Largeur de votre site */
+    height: 10%;
+    z-index:3;
+  }
+
+  .barre a {
+    text-decoration:none;
+    width: 10%;
+    height: 76%;
+    position: absolute;
+    padding-top: 1.35%;
+    text-align: center;
+  }
+
+  .logo{
+    display: inline-block;
+    float: left;
+    /*taille*/
+    width: 5%;
+    height: 100%;
+    margin-left: 2%;
+  }
+  .logo a{
+    text-decoration:none;
+    font-family: Bellerose;
+    width: 5%;
+    height: 76%;
+    position: absolute;
+    padding-top: 0.05%;
+    text-align: center;
+  }
+  .logo img {
+   display: inline-block;
+   float: left;
+   width: 130%;
+   height: 130%;
+   /*taille*/
+  }
+}
+
+@media all and (max-width:640px){
+  p{
+  color: blue;
+  background-color: black;
+  font-size: 1.2em;
+ }
+  body {
+   background-color: #F2F2F2;
+   font-size: 150%;
+   color: #1A1D26;
+   width: 100%;
+   margin: 0%;
+   font-family: Bellerose;
+  }
+
+  .content{
+   width:100%;
+  }
+
+  p{
+  margin-top: 0%;
+  margin-bottom: 10%;
+  font-size: 50%;
+  }
+
+  div.conteneur {
+  margin-left: 5%;
+  width:100%;
+  height:300px;
+  margin-bottom: 10%;
+  }
+
+  div.bloc {
+  width:15%;
+  display:inline-block;
+  vertical-align:top;
+  }
+
+  div.bloc:last-child{
+    width:60%;
+    margin-left: 6%;
+    text-align: justify;
+  }
+
+  .bloc img{
+    width:100px;
+    height:100px;
+    margin-right:2%;
+    margin-top:2%;
+    margin-bottom:2%;
+  }
+
+  .dour img {
+    margin:0;
+    width:100%;
+    height:580px;
+  }
+  h3{
+    margin: 0%;
+  }
+
+  .bloc a {
+    color : #1A1D26;
+    font-weight: bold;
+    width: 6%;
+    height: 5%;
+    padding-top:0%;
+    padding-bottom:0%;
+    text-align: center;
+  }
+  .bloc a:visited {
+    /* Les liens "au repos" et déjà visités antérieurement */
+    color: #1A1D26; /* couleur blanche */
+
+  }
+
+  /*BARRE DE NAVIAGTION*/
+  li {
+    display: inline-block;
+    float: right;
+    /*taille*/
+    width: 20%;
+    height: 100%;
+  }
+
+  .about{
+    margin-right: 7%;
+  }
+
+  .actu{
+    width: 15%;
+  }
+  .barre .actu a {
+    text-decoration:none;
+    width: 15%;
+    height: 76%;
+    position: absolute;
+    padding-top: 1.35%;
+    text-align: center;
+  }
+  ul {
+    background-color: #1A1D26;
+    font-size: 100%;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    /*height: 100px;*/
+    float: left;
+    padding: 0;
+
+  }
+
+  .barre nav{
+    position: fixed; top: 0; /* Mise en forme */
+    width: 100%; /* <-- Largeur de votre site */
+    height: 10%;
+    z-index:3;
+  }
+
+  .barre a {
+    text-decoration:none;
+    width: 10%;
+    height: 76%;
+    position: absolute;
+    padding-top: 1.35%;
+    text-align: center;
+  }
+
+  .logo{
+    display: inline-block;
+    float: left;
+    /*taille*/
+    width: 5%;
+    height: 100%;
+    margin-left: 2%;
+  }
+}
