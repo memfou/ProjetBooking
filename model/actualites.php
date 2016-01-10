@@ -11,6 +11,7 @@ class actualites
     private $id;
     private $titre;
     private $contenu;
+    private $imageHeader;
 
     /**
      * @return mixed

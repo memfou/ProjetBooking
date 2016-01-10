@@ -15,6 +15,7 @@ class evenement
     private $lieuville;
     private $lieucp;
     private $description;
+    private $imageHeader;
 
     /**
      * @return mixed
